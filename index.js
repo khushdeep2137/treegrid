@@ -1,7 +1,7 @@
 // load up the express framework and body-parser helper
 const express = require("express");
 const bodyParser = require("body-parser");
-const cors = require( "cors" );
+const cors = require( "cors" ); 
 
 // create an instance of express to serve our end points
 const app = express();
