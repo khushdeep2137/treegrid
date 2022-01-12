@@ -1,0 +1,49 @@
+[
+  {
+    "headerText": "Id",
+    "field": "uniqueId",
+    "fontColor": "black",
+    "fontSize": "13px",
+    "isPrimaryKey": true,
+    "backgroundColor": "white",
+    "textAlign": "Right",
+    "width": "150",
+    "minWidth": "150",
+    "type": "string"
+  },
+  {
+    "headerText": "Name",
+    "field": "taskName",
+    "fontColor": "black",
+    "fontSize": "13px",
+    "backgroundColor": "white",
+    "textAlign": "Left",
+    "width": "200",
+    "minWidth": "200",
+    "type": "string"
+  },
+  {
+    "fontColor": "black",
+    "fontSize": "13px",
+    "backgroundColor": "white",
+    "field": "startDate",
+    "headerText": "Start Date",
+    "textAlign": "Right",
+    "width": "200",
+    "format": "yMd",
+    "minWidth": "200",
+    "type": "date",
+    "editType": "datepickeredit"
+  },
+  {
+    "fontColor": "black",
+    "fontSize": "13px",
+    "backgroundColor": "white",
+    "field": "duration",
+    "headerText": "Duration",
+    "textAlign": "Right",
+    "width": "200",
+    "minWidth": "200",
+    "editType": "numericedit"
+  }
+]
